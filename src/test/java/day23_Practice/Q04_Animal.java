@@ -1,0 +1,25 @@
+package day23_Practice;
+
+public class Q04_Animal extends Q04_Creatures{
+    public void eat(){
+        System.out.println("Animals eat...");
+    }
+
+    public void drink(){
+        System.out.println("Animals drink...");
+    }
+
+    @Override
+    public void weight() {
+        System.out.println( "All animals have weight");
+    }
+
+    @Override
+    public void consume() {
+        System.out.println("all animals consume differenr food");
+    }
+
+    public void move(){
+        System.out.println("Animals can move...");
+    }
+}
